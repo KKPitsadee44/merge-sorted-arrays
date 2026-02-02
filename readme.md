@@ -1,9 +1,9 @@
 ## Installation
-bash
+```bash
 git clone https://github.com/KKPitsadee44/merge-sorted-arrays.git
 cd merge-sorted-arrays
 npm install
-
+```
 ## Usage
 ```typescript
 import { merge } from './src/merge';
