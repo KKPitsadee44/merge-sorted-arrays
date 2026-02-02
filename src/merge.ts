@@ -19,7 +19,7 @@ export function merge(
       result.push(val1);
       i1++;
     } 
-    else if (val2 <= val3) {  
+    else if (val2 <= val1 && val2 <= val3) {
       result.push(val2);
       i2++;
     } 
